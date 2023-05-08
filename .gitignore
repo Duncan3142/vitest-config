@@ -10,9 +10,6 @@ node_modules
 # VS Code
 !.vscode
 
-# ESLint
-!.eslintrc.cjs
-
 # Git
 !.gitignore
 

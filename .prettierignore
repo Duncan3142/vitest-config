@@ -10,9 +10,6 @@ node_modules
 # VS Code
 !.vscode
 
-# ESLint
-!.eslintrc.cjs
-
 # Git
 !.gitignore
 
@@ -22,3 +19,6 @@ node_modules
 # Prettier
 !.prettierignore
 !.prettierrc.json
+
+# pnpm
+pnpm-lock.yaml
