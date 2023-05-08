@@ -13,6 +13,9 @@
 	"exports": {
 		"./.prettierrc.json": "./.prettierrc.json"
 	},
+	"files": [
+		".prettierrc.json"
+	],
 	"peerDependencies": {
 		"prettier": "^2.0.0"
 	},
