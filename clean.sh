@@ -1,4 +1,4 @@
 #!/bin/sh
 
 pnpm clean;
-rm -rf node_modules .turbo pnpm-lock.yaml;
+rm -rf node_modules pnpm-lock.yaml;

@@ -22,16 +22,16 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-	<a href="https://github.com/Duncan3142/basic-typescript-template">
+	<a href="https://github.com/Duncan3142/prettier-cnfg">
 		<img src="readme/logo.png" alt="Logo" width="80" height="80">
 	</a>
 
 <h3 align="center">Typescript Template</h3>
 
 <p align="center">
-	A Typescript template repository for packages or services
+	Shared prettier configuration
 	<br />
-	<a href="https://github.com/Duncan3142/basic-typescript-template"><strong>Explore the docs</strong></a>
+	<a href="https://github.com/Duncan3142/prettier-cnfg"><strong>Explore the docs</strong></a>
 </p>
 
 </div>
@@ -40,12 +40,6 @@
 <details>
 	<summary>Table of Contents</summary>
 	<ol>
-		<li>
-			<a href="#about-the-project">About The Project</a>
-			<ul>
-				<li><a href="#built-with">Built With</a></li>
-			</ul>
-		</li>
 		<li>
 			<a href="#getting-started">Getting Started</a>
 			<ul>
@@ -61,20 +55,6 @@
   </ol>
 
 </details>
-
-<!-- ABOUT THE PROJECT -->
-
-## About The Project
-
-A typescript template repository
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-### Built With
-
-- [Turborepo](https://turborepo.org/)
-
-<p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
@@ -93,26 +73,6 @@ Install workspace packages
 pnpm i
 ```
 
-### Environment
-
-See [example.env](./example.env) for details on available environment variables
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-<!-- USAGE EXAMPLES -->
-
-## Usage
-
-To build the package and run all tests, run the following command
-
-```sh
-pnpm test
-```
-
-For use with an IDE, select the Typescript version found in `./node_modules/typescript/lib`
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
 <!-- LICENSE -->
 
 ## License
@@ -127,14 +87,14 @@ Distributed under the MIT License. See [LICENSE.txt](./LICENSE.txt) for more inf
 
 Duncan Giles - duncan3142@gmail.com
 
-Project Link: [https://github.com/Duncan3142/basic-typescript-template](https://github.com/Duncan3142/basic-typescript-template)
+Project Link: [https://github.com/Duncan3142/prettier-cnfg](https://github.com/Duncan3142/prettier-cnfg)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-[license-shield]: https://img.shields.io/github/license/Duncan3142/basic-typescript-template.svg?style=for-the-badge
+[license-shield]: https://img.shields.io/github/license/Duncan3142/prettier-cnfg.svg?style=for-the-badge
 [license-url]: ./LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/duncan3142
