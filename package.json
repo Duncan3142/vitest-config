@@ -21,7 +21,7 @@
 	},
 	"scripts": {
 		"prepare": "husky install",
-		"clean": "rm -rf .prettier",
+		"clean": "rm -rf .prettier .package",
 		"format": "prettier --check --cache --cache-location='.prettier/cache' --cache-strategy=content ."
 	},
 	"devDependencies": {

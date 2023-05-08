@@ -15,6 +15,7 @@ node_modules
 
 # NPM
 !.npmrc
+!.npmignore
 
 # Prettier
 !.prettierignore
