@@ -26,7 +26,7 @@
 		<img src="assets/logo.png" alt="Logo" width="80" height="80">
 	</a>
 
-<h3 align="center">Typescript Template</h3>
+<h3 align="center">Prettier Configuration</h3>
 
 <p align="center">
 	Shared prettier configuration
