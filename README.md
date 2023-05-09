@@ -67,7 +67,7 @@
 
 ### Installation
 
-Install workspace packages
+Install packages
 
 ```sh
 pnpm i
