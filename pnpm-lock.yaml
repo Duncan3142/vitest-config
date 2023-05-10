@@ -23,10 +23,10 @@ importers:
       '@commitlint/config-conventional':
         specifier: ^17.6.3
         version: 17.6.3
-      '@duncan3142/prettier-cnfg':
+      '@duncan3142/prettier-config':
         specifier: ^1.0.0
         version: 1.0.0(prettier@2.8.8)
-      '@duncan3142/tsc-cnfg':
+      '@duncan3142/tsc-config':
         specifier: ^1.0.2
         version: 1.0.2(typescript@5.0.4)
       commitlint:
@@ -440,8 +440,8 @@ packages:
       '@jridgewell/trace-mapping': 0.3.9
     dev: true
 
-  /@duncan3142/prettier-cnfg@1.0.0(prettier@2.8.8):
-    resolution: {integrity: sha512-kGISGriA19BjlZtQbd9XDq6hEJRK4AGDacnK4qIoIHWqsvbXXE/PPLSzh7PXV/aigKw1eIXrdpQEGZzwIO5eiA==}
+  /@duncan3142/prettier-config@1.0.0(prettier@2.8.8):
+    resolution: {integrity: sha512-sfU258cdN38BAuwrfqD1noc7/uwXuf3Uauiw8lufQ6frNj4pplZ9D+yLvCJhCuJ5/4ixSQJTJ15cK3ARm8dAYA==}
     engines: {node: ^18.0.0, pnpm: ^8.0.0}
     peerDependencies:
       prettier: ^2.0.0
@@ -449,8 +449,8 @@ packages:
       prettier: 2.8.8
     dev: true
 
-  /@duncan3142/tsc-cnfg@1.0.2(typescript@5.0.4):
-    resolution: {integrity: sha512-UOFN4oTiZ9zmIl9GhdPXABAjflPmSMXMDfY1V835xg4egLE2n9xpVn1uY3LwZ7Pd0rQPWm9+yGxiL4PD2pRH0Q==}
+  /@duncan3142/tsc-config@1.0.2(typescript@5.0.4):
+    resolution: {integrity: sha512-P9VjfvYbVqVxsbgF5vY50xH7nbh5sv46CGrEjX9VJiHW1ZX7CO4d8XtQ79d5vNLDw8TceFaQ223Qp7KtxM0iDg==}
     engines: {node: ^18.0.0, pnpm: ^8.0.0}
     peerDependencies:
       typescript: ^5.0.0
