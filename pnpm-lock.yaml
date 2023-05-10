@@ -24,8 +24,8 @@ importers:
         specifier: ^17.6.3
         version: 17.6.3
       '@duncan3142/prettier-config':
-        specifier: ^1.0.0
-        version: 1.0.0(prettier@2.8.8)
+        specifier: ^1.0.1
+        version: 1.0.1(prettier@2.8.8)
       '@duncan3142/tsc-config':
         specifier: ^1.0.2
         version: 1.0.2(typescript@5.0.4)
@@ -440,8 +440,8 @@ packages:
       '@jridgewell/trace-mapping': 0.3.9
     dev: true
 
-  /@duncan3142/prettier-config@1.0.0(prettier@2.8.8):
-    resolution: {integrity: sha512-sfU258cdN38BAuwrfqD1noc7/uwXuf3Uauiw8lufQ6frNj4pplZ9D+yLvCJhCuJ5/4ixSQJTJ15cK3ARm8dAYA==}
+  /@duncan3142/prettier-config@1.0.1(prettier@2.8.8):
+    resolution: {integrity: sha512-arbChcoLT/hYBxrLwYeRFvrmySMsZB7jImz9jvEpFfFnX83bJdFEjqmI/7LQIrlS4KHSboyxZXmTjP4qs3TpjQ==, tarball: https://npm.pkg.github.com/download/@duncan3142/prettier-config/1.0.1/b665a2f9e31be55b69afecbea017ffb07a14440f}
     engines: {node: ^18.0.0, pnpm: ^8.0.0}
     peerDependencies:
       prettier: ^2.0.0
@@ -450,7 +450,7 @@ packages:
     dev: true
 
   /@duncan3142/tsc-config@1.0.2(typescript@5.0.4):
-    resolution: {integrity: sha512-P9VjfvYbVqVxsbgF5vY50xH7nbh5sv46CGrEjX9VJiHW1ZX7CO4d8XtQ79d5vNLDw8TceFaQ223Qp7KtxM0iDg==}
+    resolution: {integrity: sha512-VY+wiwm+sF0yfviIq/F52CVa5S2GZ1fivDpwHWL07kO31AgFQ9yOqLbVRfwqgUCkTRnNZXeRVdMOs9b+xZ2APg==, tarball: https://npm.pkg.github.com/download/@duncan3142/tsc-config/1.0.2/634e754ee845fed5f615ba08fe3adcd5f23654f7}
     engines: {node: ^18.0.0, pnpm: ^8.0.0}
     peerDependencies:
       typescript: ^5.0.0
