@@ -14,7 +14,9 @@
 		".": "./.tsc/dist/vitest.config.js"
 	},
 	"files": [
-		"./.tsc/dist/vitest.config.js"
+		"./.tsc/dist/*.js",
+		"./.tsc/dist/*.map",
+		"./.tsc/dist/*.ts"
 	],
 	"peerDependencies": {
 		"vite": "4.3.5",
