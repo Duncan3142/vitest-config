@@ -1,5 +1,6 @@
 {
 	"name": "@duncan3142/vitest-config",
+	"repository": "https://github.com/duncan3142/vitest-config",
 	"description": "Vitest configuration",
 	"keywords": [],
 	"version": "1.0.3",
