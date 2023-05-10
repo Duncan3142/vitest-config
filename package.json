@@ -1,6 +1,6 @@
 {
-	"name": "@duncan3142/prettier-cnfg",
-	"description": "Prettier configuration",
+	"name": "@duncan3142/vitest-cnfg",
+	"description": "Vitest configuration",
 	"keywords": [],
 	"version": "1.0.0",
 	"author": "Duncan Giles",
@@ -11,24 +11,34 @@
 		"pnpm": "^8.0.0"
 	},
 	"exports": {
-		"./.prettierrc.json": "./.prettierrc.json"
+		".": "./.tsc/dist/vitest.config.js"
 	},
 	"files": [
-		".prettierrc.json"
+		"./.tsc/dist/vitest.config.js"
 	],
 	"peerDependencies": {
-		"prettier": "^2.0.0"
+		"vite": "4.3.5",
+		"vitest": "^0.31.0"
+	},
+	"dependencies": {
+		"vite-tsconfig-paths": "^4.2.0"
 	},
 	"scripts": {
 		"prepare": "husky install",
-		"clean": "rm -rf .prettier .package",
-		"format": "prettier --check --cache --cache-location='.prettier/cache' --cache-strategy=content ."
+		"clean": "rm -rf .prettier .package .tsc",
+		"format:prettier": "prettier --check --cache --cache-location='.prettier/cache' --cache-strategy=content .",
+		"format": "turbo run format:all --cache-dir=\"./.turbo\"",
+		"assets:tsc": "tsc --build",
+		"assets": "turbo run assets:all --cache-dir=\"./.turbo\"",
+		"build": "turbo run build:all --cache-dir=\"./.turbo\""
 	},
 	"devDependencies": {
 		"@changesets/cli": "^2.26.1",
 		"@commitlint/config-conventional": "^17.6.3",
+		"@duncan3142/prettier-cnfg": "^1.0.0",
+		"@duncan3142/tsc-cnfg": "^1.0.0",
 		"commitlint": "^17.6.3",
 		"husky": "^8.0.3",
-		"prettier": "^2.8.8"
+		"turbo": "^1.9.3"
 	}
 }

@@ -1,0 +1,26 @@
+{
+	"$schema": "https://turborepo.org/schema.json",
+	"globalDependencies": ["package.json", ".env"],
+	"pipeline": {
+		"format:prettier": {
+			"outputs": [".prettier/**"],
+			"dependsOn": []
+		},
+		"format:all": {
+			"outputs": [],
+			"dependsOn": ["format:prettier"]
+		},
+		"assets:tsc": {
+			"outputs": [".tsc/**"],
+			"dependsOn": []
+		},
+		"assets:all": {
+			"outputs": [],
+			"dependsOn": ["assets:tsc"]
+		},
+		"build:all": {
+			"outputs": [],
+			"dependsOn": ["format:all", "assets:all"]
+		}
+	}
+}
