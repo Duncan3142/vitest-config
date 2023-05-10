@@ -11,7 +11,10 @@
 		"pnpm": "^8.0.0"
 	},
 	"exports": {
-		".": "./.tsc/dist/vitest.config.js"
+		".": {
+			"types": "./.tsc/dist/vitest.config.d.ts",
+			"import": "./.tsc/dist/vitest.config.js"
+		}
 	},
 	"files": [
 		"./.tsc/dist/*.js",
