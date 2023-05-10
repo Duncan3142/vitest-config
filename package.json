@@ -1,5 +1,5 @@
 {
-	"name": "@duncan3142/vitest-cnfg",
+	"name": "@duncan3142/vitest-config",
 	"description": "Vitest configuration",
 	"keywords": [],
 	"version": "1.0.3",
@@ -44,8 +44,8 @@
 	"devDependencies": {
 		"@changesets/cli": "^2.26.1",
 		"@commitlint/config-conventional": "^17.6.3",
-		"@duncan3142/prettier-cnfg": "^1.0.0",
-		"@duncan3142/tsc-cnfg": "^1.0.2",
+		"@duncan3142/prettier-config": "^1.0.0",
+		"@duncan3142/tsc-config": "^1.0.2",
 		"commitlint": "^17.6.3",
 		"husky": "^8.0.3",
 		"turbo": "^1.9.3"

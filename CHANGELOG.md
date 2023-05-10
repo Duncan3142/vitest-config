@@ -1,4 +1,4 @@
-# @duncan3142/vitest-cnfg
+# @duncan3142/vitest-config
 
 ## 1.0.3
 
