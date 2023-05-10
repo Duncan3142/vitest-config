@@ -24,8 +24,8 @@ importers:
         specifier: ^1.0.0
         version: 1.0.0(prettier@2.8.8)
       '@duncan3142/tsc-cnfg':
-        specifier: ^1.0.0
-        version: 1.0.0(typescript@5.0.4)
+        specifier: ^1.0.1
+        version: 1.0.1(typescript@5.0.4)
       commitlint:
         specifier: ^17.6.3
         version: 17.6.3
@@ -434,8 +434,8 @@ packages:
       prettier: 2.8.8
     dev: true
 
-  /@duncan3142/tsc-cnfg@1.0.0(typescript@5.0.4):
-    resolution: {integrity: sha512-nLEknYC6oA43sInw0e7WPDx2mFc6COOKrLTz9LF7ncj0XNyXlvaIC3gF1Eb0Z3G2uKyukfKXMA8xIudK/cQdtQ==}
+  /@duncan3142/tsc-cnfg@1.0.1(typescript@5.0.4):
+    resolution: {integrity: sha512-yD3nIUpOdpak9kIxvbNThgLEzvnRrvbfp2HIIzLIQ+kdY4Exs1zsN7ig26096sRIHYqBHEi7lIi32dzqNL7ulg==}
     engines: {node: ^18.0.0, pnpm: ^8.0.0}
     peerDependencies:
       typescript: ^5.0.0
