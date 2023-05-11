@@ -8,6 +8,8 @@ export default defineConfig({
 		include: ["test/**/*.spec.ts"],
 		coverage: {
 			reportsDirectory: ".vitest/coverage",
+			include: ["src/**/*.ts"],
+			skipFull: true,
 			all: true,
 		},
 	},
