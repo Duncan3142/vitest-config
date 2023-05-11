@@ -3,7 +3,7 @@
 	"repository": "https://github.com/duncan3142/vitest-config",
 	"description": "Vitest configuration",
 	"keywords": [],
-	"version": "1.0.3",
+	"version": "1.0.4",
 	"author": "Duncan Giles",
 	"type": "module",
 	"license": "MIT",
@@ -46,7 +46,7 @@
 		"@changesets/cli": "^2.26.1",
 		"@commitlint/config-conventional": "^17.6.3",
 		"@duncan3142/prettier-config": "^1.0.1",
-		"@duncan3142/tsc-config": "^1.0.2",
+		"@duncan3142/tsc-config": "^1.0.4",
 		"commitlint": "^17.6.3",
 		"husky": "^8.0.3",
 		"turbo": "^1.9.3"

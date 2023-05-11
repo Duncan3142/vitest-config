@@ -9,7 +9,7 @@ importers:
         version: 0.31.0(vitest@0.31.0)
       vite:
         specifier: 4.3.5
-        version: 4.3.5(@types/node@20.1.2)
+        version: 4.3.5(@types/node@18.16.7)
       vite-tsconfig-paths:
         specifier: ^4.2.0
         version: 4.2.0(typescript@5.0.4)(vite@4.3.5)
@@ -27,8 +27,8 @@ importers:
         specifier: ^1.0.1
         version: 1.0.1(prettier@2.8.8)
       '@duncan3142/tsc-config':
-        specifier: ^1.0.2
-        version: 1.0.2(typescript@5.0.4)
+        specifier: ^1.0.4
+        version: 1.0.4(@types/node@18.16.7)(typescript@5.0.4)
       commitlint:
         specifier: ^17.6.3
         version: 17.6.3
@@ -359,7 +359,7 @@ packages:
       lodash.merge: 4.6.2
       lodash.uniq: 4.5.0
       resolve-from: 5.0.0
-      ts-node: 10.9.1(@types/node@20.1.2)(typescript@5.0.4)
+      ts-node: 10.9.1(@types/node@18.16.7)(typescript@5.0.4)
       typescript: 5.0.4
     transitivePeerDependencies:
       - '@swc/core'
@@ -449,12 +449,14 @@ packages:
       prettier: 2.8.8
     dev: true
 
-  /@duncan3142/tsc-config@1.0.2(typescript@5.0.4):
-    resolution: {integrity: sha512-VY+wiwm+sF0yfviIq/F52CVa5S2GZ1fivDpwHWL07kO31AgFQ9yOqLbVRfwqgUCkTRnNZXeRVdMOs9b+xZ2APg==, tarball: https://npm.pkg.github.com/download/@duncan3142/tsc-config/1.0.2/634e754ee845fed5f615ba08fe3adcd5f23654f7}
+  /@duncan3142/tsc-config@1.0.4(@types/node@18.16.7)(typescript@5.0.4):
+    resolution: {integrity: sha512-EbMJnYcxXKvaDk6VITACjXUcY1tmpr9hQhvd5BSkpFiw5BrymrwcACUS6uDF4uTsOBRQ/7i/0YBSgttt5xZ3eg==, tarball: https://npm.pkg.github.com/download/@duncan3142/tsc-config/1.0.4/7dcb38fa4b53f3eeb2e7033d63690654ffe72f3a}
     engines: {node: ^18.0.0, pnpm: ^8.0.0}
     peerDependencies:
+      '@types/node': ^18.16.5
       typescript: ^5.0.0
     dependencies:
+      '@types/node': 18.16.7
       typescript: 5.0.4
     dev: true
 
@@ -790,6 +792,9 @@ packages:
   /@types/node@12.20.55:
     resolution: {integrity: sha512-J8xLz7q2OFulZ2cyGTLE1TbbZcjpno7FaN6zdJNrgAdrJ+DZzh/uFR6YrTb4C+nXakvud8Q4+rbhoIWlYQbUFQ==}
     dev: true
+
+  /@types/node@18.16.7:
+    resolution: {integrity: sha512-MFg7ua/bRtnA1hYE3pVyWxGd/r7aMqjNOdHvlSsXV3n8iaeGKkOaPzpJh6/ovf4bEXWcojkeMJpTsq3mzXW4IQ==}
 
   /@types/node@20.1.2:
     resolution: {integrity: sha512-CTO/wa8x+rZU626cL2BlbCDzydgnFNgc19h4YvizpTO88MFQxab8wqisxaofQJ/9bLGugRdWIuX/TbIs6VVF6g==}
@@ -1220,7 +1225,7 @@ packages:
     dependencies:
       '@types/node': 20.1.2
       cosmiconfig: 8.1.3
-      ts-node: 10.9.1(@types/node@20.1.2)(typescript@5.0.4)
+      ts-node: 10.9.1(@types/node@18.16.7)(typescript@5.0.4)
       typescript: 5.0.4
     dev: true
 
@@ -3037,7 +3042,7 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /ts-node@10.9.1(@types/node@20.1.2)(typescript@5.0.4):
+  /ts-node@10.9.1(@types/node@18.16.7)(typescript@5.0.4):
     resolution: {integrity: sha512-NtVysVPkxxrwFGUUxGYhfux8k78pQB3JqYBXlLRZgdGUqTO5wU/UyHop5p70iEbGhB7q5KmiZiU0Y3KlJrScEw==}
     hasBin: true
     peerDependencies:
@@ -3056,7 +3061,7 @@ packages:
       '@tsconfig/node12': 1.0.11
       '@tsconfig/node14': 1.0.3
       '@tsconfig/node16': 1.0.3
-      '@types/node': 20.1.2
+      '@types/node': 18.16.7
       acorn: 8.8.2
       acorn-walk: 8.2.0
       arg: 4.1.3
@@ -3279,10 +3284,43 @@ packages:
       debug: 4.3.4
       globrex: 0.1.2
       tsconfck: 2.1.1(typescript@5.0.4)
-      vite: 4.3.5(@types/node@20.1.2)
+      vite: 4.3.5(@types/node@18.16.7)
     transitivePeerDependencies:
       - supports-color
       - typescript
+    dev: false
+
+  /vite@4.3.5(@types/node@18.16.7):
+    resolution: {integrity: sha512-0gEnL9wiRFxgz40o/i/eTBwm+NEbpUeTWhzKrZDSdKm6nplj+z4lKz8ANDgildxHm47Vg8EUia0aicKbawUVVA==}
+    engines: {node: ^14.18.0 || >=16.0.0}
+    hasBin: true
+    peerDependencies:
+      '@types/node': '>= 14'
+      less: '*'
+      sass: '*'
+      stylus: '*'
+      sugarss: '*'
+      terser: ^5.4.0
+    peerDependenciesMeta:
+      '@types/node':
+        optional: true
+      less:
+        optional: true
+      sass:
+        optional: true
+      stylus:
+        optional: true
+      sugarss:
+        optional: true
+      terser:
+        optional: true
+    dependencies:
+      '@types/node': 18.16.7
+      esbuild: 0.17.18
+      postcss: 8.4.23
+      rollup: 3.21.6
+    optionalDependencies:
+      fsevents: 2.3.2
     dev: false
 
   /vite@4.3.5(@types/node@20.1.2):
