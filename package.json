@@ -3,7 +3,7 @@
 	"repository": "https://github.com/duncan3142/vitest-config",
 	"description": "Vitest configuration",
 	"keywords": [],
-	"version": "1.0.8",
+	"version": "1.0.9",
 	"author": "Duncan Giles",
 	"type": "module",
 	"license": "MIT",
