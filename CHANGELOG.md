@@ -1,5 +1,11 @@
 # @duncan3142/vitest-config
 
+## 1.0.10
+
+### Patch Changes
+
+- 7cc4578: Update deps
+
 ## 1.0.9
 
 ### Patch Changes
