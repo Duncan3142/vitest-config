@@ -28,10 +28,10 @@
 		"vitest": "^0.31.0"
 	},
 	"dependencies": {
-		"@vitest/coverage-c8": "^0.31.4",
+		"@vitest/coverage-c8": "^0.32.2",
 		"vite": "^4.3.9",
 		"vite-tsconfig-paths": "^4.2.0",
-		"vitest": "^0.31.4"
+		"vitest": "^0.32.2"
 	},
 	"scripts": {
 		"prepare": "./.husky/install.sh",
@@ -49,6 +49,6 @@
 		"@duncan3142/tsc-config": "^1.0.6",
 		"commitlint": "^17.6.5",
 		"husky": "^8.0.3",
-		"turbo": "^1.10.1"
+		"turbo": "^1.10.3"
 	}
 }
